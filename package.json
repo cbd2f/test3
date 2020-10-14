@@ -1,15 +1,26 @@
 {
   "name": "test3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "firebase": "^7.23.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbd2f/test3.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/cbd2f/test3/issues"
+  },
+  "homepage": "https://github.com/cbd2f/test3#readme",
+  "description": ""
 }
