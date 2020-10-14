@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>實作 EJS</title>
+    </head>
+    <body>
+        <h1><%= name %></h1>
+
+        <%- age %>
+
+        <% if(happy == true) { %>
+            <h1> Happy !! </h1>
+        <% } else { %>
+            <h1> Sad !! </h1>
+        <% } %>
+        <ul>
+            <% for(let i=0; i<friends.length; i++) { %>
+                <li><%= friends[i] %></li>
+            <% } %>
+        </ul>
+    </body>
+</html>
